@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "vxZ+NGMgPXpk1xIAvXyEDc2fuPAa4v+0pQgoKtCBu8U=",
+  "Source": "bff-app-client.Server",
+  "BasePath": "_content/bff-app-client.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -21,6 +21,7 @@
     },
     "https": {
       "commandName": "Project",
+      "sslPort": 7217,
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
