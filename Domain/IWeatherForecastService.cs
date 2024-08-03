@@ -4,6 +4,6 @@ namespace bff_app_client.Server.Domain
 {
     public interface IWeatherForecastService
     {
-        WeatherForecast[] Forecast();
+        WeatherForecast[] Forecast(int count);
     }
 }
