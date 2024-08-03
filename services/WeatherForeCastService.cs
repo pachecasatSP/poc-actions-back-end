@@ -6,7 +6,7 @@ namespace bff_app_client.Server.services
     public class WeatherforecastService : IWeatherForecastService
     {
 
-        public WeatherForecast[] Forecast()
+        public WeatherForecast[] Forecast(int count)
         {
             var summaries = new[]
             {
@@ -14,7 +14,7 @@ namespace bff_app_client.Server.services
             };
 
 
-            var forecast = Enumerable.Range(1, 20).Select(index =>
+            var forecast = Enumerable.Range(1, count).Select(index =>
             new WeatherForecast
             (
                 DateOnly.FromDateTime(DateTime.Now.AddDays(index)).ToString("dd/MM/yyyy"),
