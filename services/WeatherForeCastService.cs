@@ -14,10 +14,10 @@ namespace bff_app_client.Server.services
             };
 
 
-            var forecast = Enumerable.Range(1, 5).Select(index =>
+            var forecast = Enumerable.Range(1, 20).Select(index =>
             new WeatherForecast
             (
-                DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
+                DateOnly.FromDateTime(DateTime.Now.AddDays(index)).ToString("dd/MM/yyyy"),
                 Random.Shared.Next(-20, 55),
                 summaries[Random.Shared.Next(summaries.Length)]
             ))
