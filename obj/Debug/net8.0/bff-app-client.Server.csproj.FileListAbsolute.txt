@@ -65,3 +65,4 @@ C:\Users\adolf\source\Repos\poc-actions-back-end\obj\Debug\net8.0\refint\bff-app
 C:\Users\adolf\source\Repos\poc-actions-back-end\obj\Debug\net8.0\bff-app-client.Server.pdb
 C:\Users\adolf\source\Repos\poc-actions-back-end\obj\Debug\net8.0\bff-app-client.Server.genruntimeconfig.cache
 C:\Users\adolf\source\Repos\poc-actions-back-end\obj\Debug\net8.0\ref\bff-app-client.Server.dll
+C:\Users\adolf\source\Repos\poc-actions-back-end\bin\Debug\net8.0\package-lock.json

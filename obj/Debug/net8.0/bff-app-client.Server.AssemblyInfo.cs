@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("bff-app-client.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5e4e6f56a7b42dbed8d86a5b8f8e82afdb6a688")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c06781f21dd6aa1c0e7e4ec652a8a6552e10794f")]
 [assembly: System.Reflection.AssemblyProductAttribute("bff-app-client.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("bff-app-client.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

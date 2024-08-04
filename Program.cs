@@ -1,6 +1,5 @@
 using bff_app_client.Server.Domain;
 using bff_app_client.Server.IoC;
-using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +9,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddCors();
 
+builder.Services.AddMemoryCache();
 builder.Services.InjectServices();
 
 var app = builder.Build();
